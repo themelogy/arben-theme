@@ -1,0 +1,30 @@
+
+/*---------------------------------------------------------------
+4. LISTS
+---------------------------------------------------------------*/
+
+dl, ul, ol {
+  list-style-position: outside;
+  padding: 0;
+}
+
+ul, ol {
+  margin-bottom: 24px;
+}
+
+ul li, ol li {
+  padding: 0;
+}
+
+dl {
+  margin-left: 0;
+  margin-bottom: 30px;
+  dd {
+    margin-bottom: 10px;
+  }
+}
+
+.list-inline > li {
+  padding-left: 2px;
+  padding-right: 2px;
+}

@@ -1,0 +1,64 @@
+
+/*---------------------------------------------------------------
+25. PAGINATION
+---------------------------------------------------------------*/
+/* pagination style-1 */
+
+.pagination-bx .pagination, .cvf-universal-pagination .pagination {
+  margin: 0;
+}
+
+.pagination {
+  padding: 10px 0;
+  > {
+    li {
+      &:first-child > {
+        a, span {
+          border-bottom-left-radius: 0;
+          border-top-left-radius: 0;
+          margin-left: 0;
+        }
+      }
+      &:last-child > {
+        a, span {
+          border-bottom-right-radius: 0;
+          border-top-right-radius: 0;
+        }
+      }
+      > {
+        a, span {
+          background-color: #fff;
+          border: 1px solid #e0e0e0;
+          color: #767676;
+          padding: 8px 14px;
+          font-weight: 600;
+          font-size: 12px;
+        }
+        a:hover, span:hover, a:focus, span:focus {
+          border-color: transparent;
+          color: #fff;
+        }
+      }
+    }
+    .active > {
+      a, span, a:hover, span:hover, a:focus, span:focus {
+        border-color: transparent;
+      }
+    }
+    .previous > a, .next > a {
+      padding: 8px 14px;
+      font-size: 12px;
+    }
+  }
+}
+
+/*DataTable  pagination */
+
+.dataTables_paginate {
+  ul.pagination {
+    margin: 0;
+  }
+  .pagination > li {
+    padding: 0;
+  }
+}

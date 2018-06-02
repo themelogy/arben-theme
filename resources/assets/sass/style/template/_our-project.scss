@@ -1,0 +1,54 @@
+
+/*=== Our Project ===*/
+.dez-project-left {
+  position: relative;
+  &:after {
+    content: "";
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 1000px;
+    z-index: -2;
+  }
+}
+
+/*=== Service Carousel ===*/
+
+.service-carousel {
+  .date {
+    position: absolute;
+    right: 0;
+    padding: 1px 5px;
+    color: #000;
+    top: -22px;
+  }
+  .ow-entry-content {
+    position: relative;
+    border: 0;
+    text-align: center;
+    h4 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+  }
+  &.owl-theme .owl-controls {
+    margin-top: 0;
+    position: absolute;
+    right: 8.33333%;
+    text-align: center;
+    top: -80px;
+    padding: 0 15px;
+  }
+  .owl-prev, .owl-next {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+  }
+  .owl-prev:hover, .owl-next:hover {
+    opacity: 0.8;
+  }
+}

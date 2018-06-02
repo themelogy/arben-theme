@@ -1,0 +1,18 @@
+
+/* Abouts */
+
+.abouts-2 {
+  box-shadow: 0 0 4px 2px rgb(240, 240, 240);
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: all 0.5s;
+  &:hover {
+    border: 2px solid $default-theme-color;
+    transition: all 0.5s;
+    border-radius: 3px;
+    .dez-info .site-button {
+      color: #fff;
+      border: 2px solid #FD4871;
+      box-shadow: 0 0 5px 5px #eaeaea;
+    }
+  }
+}

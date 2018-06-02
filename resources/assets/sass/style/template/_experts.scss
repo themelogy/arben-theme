@@ -1,0 +1,33 @@
+/* Meet Your Experts */
+
+.spa-meet-expert {
+  .team-title {
+    .icon-xl span {
+      font-size: 100px;
+      font-weight: 700;
+      line-height: 100px;
+      font-family: "Nunito", sans-serif;
+    }
+    .icon-content {
+      .dez-tilte {
+        font-size: 30px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Nunito", sans-serif;
+      }
+    }
+    .icon-bx-wraper {
+      display: table;
+      .icon-xl, .icon-content {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+  .img-box {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  }
+}

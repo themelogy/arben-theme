@@ -1,0 +1,39 @@
+
+/* Gallery-page */
+
+.dez-hover a {
+  &:active, &:hover {
+    color: #fff;
+  }
+}
+
+footer .footer-bottom .fa-heart {
+  animation: 2.5s ease 0s normal none infinite running animateHeart;
+  font-size: 16px;
+}
+
+@keyframes animateHeart {
+  0% {
+    transform: scale(1);
+  }
+
+  5% {
+    transform: scale(1.2);
+  }
+
+  10% {
+    transform: scale(1.1);
+  }
+
+  15% {
+    transform: scale(1.25);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,149 @@
+.btn, .panel, .form-control, .img-thumbnail, .panel-heading, .dropdown-menu, .panel-group .panel, .nav-tabs > li > a, .modal-content, .navbar-toggle, .nav-pills > li > a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.pager li > {
+  a, span {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+
+.well, .alert {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.list-group-item {
+  &:first-child, &:last-child {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+
+.input-group-addon {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.btn-group-divides > .btn {
+  &:not(:first-child):not(:last-child):not(.dropdown-toggle), &:last-child:not(:first-child) {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+
+.btn-group > .dropdown-toggle:not(:first-child) {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.dez-booking-form .dez-extra-services li {
+  .icon-bx-lg, &.active .icon-bx-lg:after {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+
+.widget_tag_cloud a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.searchform input {
+  &[type="text"], &[type="submit"] {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+
+ol.comment-list li.comment .comment-body {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/*== >transition ==*/
+
+a, .dez-box, .btn, .form-control, .overlay-bx, .overlay-icon li a i, .icon-bx-xl, .icon-bx-lg, .icon-bx-md, .icon-bx-sm, .icon-bx-xs, .share-social-bx li, .indicator, .profile-menu ul li, .staff-member .member-done {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.how-dez-work .dez-box {
+  .shadow-bx img, .step-no-bx {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+}
+
+.dez-info-has, .dez-we-find .dez-box, .navbar-toggle, .logo-header, .header-nav .nav > li > a, .extra-nav, .skew-secondry:hover, .skew-primary:hover, .skew-secondry:hover::after, .skew-primary:hover::after {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.animate-slow {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.animate-mid {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.animate-fast {
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+
+.clearfix {
+  &:after, &:before {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/*error for select box*/
+
+.has-error .bootstrap-select .dropdown-toggle {
+  border-color: #a94442 !important;
+  &:hover, &:focus {
+    border-color: #a94442 !important;
+  }
+}
+
+/*succes for select box*/
+
+.has-success .bootstrap-select .dropdown-toggle {
+  border-color: #3c763d !important;
+  &:hover, &:focus {
+    border-color: #3c763d !important;
+  }
+}

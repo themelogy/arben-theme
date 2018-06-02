@@ -1,0 +1,110 @@
+
+/*---------------------------------------------------------------
+13. WP DEFAULT
+---------------------------------------------------------------*/
+
+.alignnone {
+  margin: 0;
+}
+
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 5px auto 15px;
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 25px 25px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 25px 25px 0;
+}
+
+a img {
+  &.alignright {
+    float: right;
+    margin: 5px 0 25px 25px;
+  }
+  &.alignnone {
+    margin: 5px 0 25px 0;
+  }
+  &.alignleft {
+    float: left;
+    margin: 5px 25px 25px 0;
+  }
+  &.aligncenter {
+    display: block;
+    margin: 5px auto 15px;
+  }
+}
+
+.wp-caption {
+  max-width: 100%;
+  text-align: center;
+  img[class*="wp-image-"] {
+    display: block;
+    margin: 0;
+  }
+  &.alignnone {
+    margin: 5px 0 25px 0;
+  }
+  &.alignleft {
+    margin: 5px 25px 25px 0;
+  }
+  &.alignright {
+    margin: 5px 0 25px 25px;
+  }
+  img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+  }
+  p.wp-caption-text {
+    color: #9d9d9d;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: left;
+  }
+}
+
+blockquote {
+  padding: 16px 20px 16px 80px;
+  font-size: 18px;
+  font-style: italic;
+  color: #555555;
+  margin: 40px 0;
+  border-left: none;
+  line-height: 30px;
+  position: relative;
+  background: #f6f6f6;
+  clear: both;
+  border-left: 4px solid $default-theme-color;
+  p {
+    font-size: 18px;
+    color: #555555;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  &:before {
+    content: '\f10d';
+    font-family: "FontAwesome", sans-serif;
+    color: $default-theme-color;
+    font-size: 35px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-style: normal;
+  }
+}
+
+.size-auto, .size-full, .size-large, .size-medium, .size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}

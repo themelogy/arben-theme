@@ -1,0 +1,35 @@
+$default-theme-color:             #59C7DB;
+$default-txt-color:               darken(#fff, 60%);
+$default-heading-color:           darken(#fff, 50%);
+$theme-color-light:               #f8fefc;
+
+//Content
+$default-box-bg-color:            $default-theme-color;
+$heading-color:                   $default-heading-color;
+$body-bg-color:                   #fff;
+//Breadcrumb
+$breadcrumb-separator-color:      darken(white, 40%);
+$breadcrumb-hover-color:          $default-theme-color;
+$breadcrumb-color:                darken(white, 40%);
+
+//Header
+$topbar-color:                    $default-txt-color;
+$topbar-border:                   1px solid darken(white, 5%);
+
+//Menu
+$menu-border-color:               darken($default-theme-color, 10%);
+$menu-color:                      $default-heading-color;
+$menu-home-border-color:          #fff;
+$menu-home-color:                 #fff;
+$menu-fixed-color:                $default-heading-color;
+$menu-sub-color:                  $default-heading-color;
+$menu-page-color:                 $default-txt-color;
+
+
+//Footer
+$footer-bg-color:                 lighten(#E6E7E8, 8%);
+$footer-border:                   1px solid darken($footer-bg-color, 5%);
+$footer-bottom-color:             darken($footer-bg-color, 2%);
+$footer-heading-color:            lighten($default-heading-color, 5%);
+$footer-bottom-txt-color:         darken(#fff, 30%);
+//List

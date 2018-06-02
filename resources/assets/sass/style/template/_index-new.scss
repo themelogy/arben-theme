@@ -1,0 +1,119 @@
+
+/* Index New */
+/* -- Header */
+
+.spa-header .logo-header.mostion {
+  margin-top: -15px;
+  width: 230px;
+}
+
+.header-set {
+  position: absolute;
+  right: -5px;
+  top: 0;
+  width: 65%;
+  z-index: 1;
+}
+
+.spa-header.header-transparent .top-bar {
+  color: #ffffff;
+}
+
+.site-header.spa-header .navbar-nav > li {
+  padding: 18px 0;
+  > a {
+    border: 2px solid rgba($default-theme-color, 0);
+    padding: 10px 18px;
+  }
+  &.active > a, &:hover > a {
+    color: $menu-home-color;
+    border: 2px solid $menu-home-border-color;
+    border-radius: 30px;
+  }
+}
+
+.header-transparent.spa-header .is-fixed .main-bar {
+  background-color: #fff;
+  z-index: 999;
+}
+
+.spa-header {
+  .is-fixed .logo-header.mostion {
+    margin-top: 0;
+    width: 200px;
+  }
+  &.header-transparent .is-fixed {
+    .header-nav .nav > li > a, .extra-nav .site-button-link, .navbar-toggle {
+      color: $menu-fixed-color;
+    }
+  }
+}
+
+.site-header.spa-header .is-fixed .navbar-nav > li {
+  padding: 13px 0;
+  &.active > a, &:hover > a {
+    border: 2px solid $menu-border-color;
+    color: $menu-color;
+  }
+}
+
+/* Slider Set */
+
+.slider-set {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  opacity: 0.5;
+}
+
+/* Title */
+
+.spa-title-head {
+  font-size: 65px;
+  line-height: 75px;
+}
+
+.min-title {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+/* Owl Btn Spa Lr */
+
+.owl-spa-btn .owl-controls .owl-nav {
+  .owl-next, .owl-prev {
+    background: #e8e8e8;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    color: #000;
+    font-size: 36px;
+  }
+  .owl-next:hover, .owl-prev:hover {
+    color: #fff;
+    background: $default-theme-color;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+}
+
+.box-price span, .gradient {
+  color: #fff;
+  background: $default-theme-color;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.owl-btn-center-lr.owl-btn-spa-lr .owl-controls .owl-nav {
+  .owl-next {
+    right: -100px;
+  }
+  .owl-prev {
+    left: -100px;
+  }
+}

@@ -1,0 +1,40 @@
+
+/* Team */
+
+.dez-expert {
+  .team-title {
+    .team-num {
+      float: left;
+      font-size: 118px;
+      font-weight: 700;
+      width: 30%;
+    }
+    .team-name {
+      float: left;
+      margin: 0;
+      width: 70%;
+      > span {
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin: 0;
+      }
+    }
+  }
+  .img-box {
+    img {
+      box-shadow: 0 0 10px 6px #ededed;
+      width: 100%;
+    }
+    .dez-social-icon {
+      li a {
+        color: #aaa;
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+      }
+      padding-top: 25px;
+    }
+  }
+}

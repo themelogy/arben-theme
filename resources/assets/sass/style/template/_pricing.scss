@@ -1,0 +1,29 @@
+
+/* Priceing Table */
+
+.pricing-plans {
+  .pricingtable-inner {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  .pricingtable-footer {
+    background-color: #fff;
+    padding: 40px 20px;
+  }
+  .pricingtable-features li {
+    &:nth-child(2n) {
+      background-color: #fff;
+    }
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px;
+  }
+  .pricingtable-price {
+    span {
+      font-family: "Nunito", sans-serif;
+    }
+    .pricingtable-bx {
+      font-size: 65px;
+      font-weight: 700;
+    }
+  }
+}

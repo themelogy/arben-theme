@@ -1,0 +1,9 @@
+/* Gradiyant And Color Css */
+
+.overlay-primary-light.main:after, .overlay-primary-middle.main:after, .overlay-primary-dark.main:after {
+  background: $default-theme-color;
+}
+
+.overlay-primary-light:after, .overlay-primary-middle:after, .overlay-primary-dark:after {
+  background: #ff709b;
+}

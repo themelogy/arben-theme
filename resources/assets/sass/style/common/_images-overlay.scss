@@ -1,0 +1,754 @@
+
+/*---------------------------------------------------------------
+9. IMAGES OVERLAY EFFECTS (overly animation on images)
+---------------------------------------------------------------*/
+
+.dez-img-overlay1, .dez-img-overlay2, .dez-img-overlay3, .dez-img-overlay4, .dez-img-overlay5, .dez-img-overlay6, .dez-img-overlay7, .dez-img-overlay8, .dez-img-overlay9, .dez-img-overlay11 {
+  position: relative;
+}
+
+.dez-img-overlay1 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay2 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay3 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay4 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay5 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay6 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay7 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay8 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay9 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+.dez-img-overlay11 {
+  &:before, &:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    opacity: 0.4;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+}
+
+/*effect 1*/
+
+.dez-img-overlay1 {
+  &:before {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  &:hover:before {
+    opacity: 0.5;
+  }
+}
+
+.dez-box:hover .dez-img-overlay1:before {
+  opacity: 0.5;
+}
+
+/*effect 2*/
+
+.dez-img-overlay2 {
+  &:before {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+  &:hover:before {
+    opacity: 0.9;
+  }
+}
+
+.dez-box:hover .dez-img-overlay2:before {
+  opacity: 0.9;
+}
+
+/*effect 3*/
+
+.dez-img-overlay3 {
+  &:before {
+    left: 50%;
+    top: 50%;
+  }
+  &:hover:before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+.dez-box:hover .dez-img-overlay3:before {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/*effect 4*/
+
+.dez-img-overlay4 {
+  &:before {
+    left: 50%;
+    top: 0;
+    height: 100%;
+  }
+  &:hover:before {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.dez-box:hover .dez-img-overlay4:before {
+  width: 100%;
+  left: 0;
+}
+
+/*effect 5*/
+
+.dez-img-overlay5 {
+  &:before {
+    left: 0;
+    top: 50%;
+    width: 100%;
+  }
+  &:hover:before {
+    height: 100%;
+    top: 0;
+  }
+}
+
+.dez-box:hover .dez-img-overlay5:before {
+  height: 100%;
+  top: 0;
+}
+
+/*effect 6*/
+
+.dez-img-overlay6 {
+  &:before {
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+  }
+  &:hover:before {
+    height: 100%;
+  }
+}
+
+.dez-box:hover .dez-img-overlay6:before {
+  height: 100%;
+}
+
+/*effect 7*/
+
+.dez-img-overlay7 {
+  &:before {
+    height: 100%;
+  }
+  &:after {
+    height: 100%;
+    left: auto;
+    right: 0;
+  }
+  &:hover {
+    &:before, &:after {
+      width: 50%;
+    }
+  }
+}
+
+.dez-box:hover .dez-img-overlay7 {
+  &:before, &:after {
+    width: 50%;
+  }
+}
+
+/*effect 8*/
+
+.dez-img-overlay8 {
+  &:before {
+    height: 100%;
+  }
+  &:after {
+    height: 100%;
+    left: auto;
+    right: 0;
+  }
+  &:hover {
+    &:before, &:after {
+      width: 100%;
+      opacity: 0.3;
+    }
+  }
+}
+
+.dez-box:hover .dez-img-overlay8 {
+  &:before, &:after {
+    width: 100%;
+    opacity: 0.3;
+  }
+}
+
+/*effect 9*/
+
+.dez-img-overlay9 {
+  &:before {}
+  &:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+  }
+  &:hover {
+    &:before, &:after {
+      width: 100%;
+      height: 100%;
+      opacity: 0.3;
+    }
+  }
+}
+
+.dez-box:hover .dez-img-overlay9 {
+  &:before, &:after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+  }
+}
+
+/*effect 10*/
+
+.dez-img-overlay10 {
+  &:before, &:after {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  &:hover:before {
+    opacity: 0.5;
+  }
+}
+
+.dez-box:hover .dez-img-overlay10:before {
+  opacity: 0.5;
+}
+
+.dez-img-overlay10:hover:after, .dez-box:hover .dez-img-overlay10:after {
+  width: 90%;
+  height: 80%;
+  left: 5%;
+  top: 10%;
+  opacity: 0.5;
+  background: none;
+  border: 1px dashed #FFFFFF;
+}
+
+.dez-img-overlay11 {
+  &:after {}
+  &:hover:after {
+    height: 95%;
+    opacity: 1;
+    right: 7.5%;
+    top: 2.5%;
+    -moz-transform: skewY(0deg);
+    -webkit-transform: skewY(0deg);
+    -o-transform: skewY(0deg);
+    -ms-transform: skewY(0deg);
+    transform: skewY(0deg);
+    width: 85%;
+  }
+}
+
+.dez-box:hover .dez-img-overlay11:after {
+  height: 95%;
+  opacity: 1;
+  right: 7.5%;
+  top: 2.5%;
+  -moz-transform: skewY(0deg);
+  -webkit-transform: skewY(0deg);
+  -o-transform: skewY(0deg);
+  -ms-transform: skewY(0deg);
+  transform: skewY(0deg);
+  width: 85%;
+}
+
+.dez-img-overlay11:hover:before, .dez-box:hover .dez-img-overlay11:before {
+  height: 85%;
+  left: 2.5%;
+  opacity: 1;
+  top: 7.5%;
+  -moz-transform: skewY(0deg);
+  -webkit-transform: skewY(0deg);
+  -o-transform: skewY(0deg);
+  -ms-transform: skewY(0deg);
+  transform: skewY(0deg);
+  width: 95%;
+}
+
+.dez-img-overlay11 {
+  &:after {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    bottom: 5%;
+    height: 80%;
+    left: auto;
+    right: 5%;
+    top: auto;
+    -moz-transform: skewY(70deg);
+    -webkit-transform: skewY(70deg);
+    -o-transform: skewY(70deg);
+    -ms-transform: skewY(70deg);
+    transform: skewY(70deg);
+    width: 90%;
+  }
+  &:before {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    bottom: auto;
+    height: 90%;
+    left: 5%;
+    right: auto;
+    top: 5%;
+    -moz-transform: skewX(-70deg);
+    -webkit-transform: skewX(-70deg);
+    -o-transform: skewX(-70deg);
+    -ms-transform: skewX(-70deg);
+    transform: skewX(-70deg);
+    width: 80%;
+  }
+  background-color: #000 !important;
+  &:hover img {
+    opacity: 0.7 !important;
+  }
+}
+
+/* Overlay Gradient */
+
+.gradient {
+  &.dez-img-overlay1 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay2 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay3 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay4 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay5 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay6 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay7 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay8 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay9 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+  &.dez-img-overlay11 {
+    &:before, &:after {
+      background: #ff709b;
+      @include linear-gradient(top, #ff709b 0%, #ff2b6e 100%);
+    }
+  }
+}
+
+/*---------------------------------------------------------------
+10. IMAGES EFFECTS (image animation in images)
+	 >image-opacity
+	 >image-zoom
+	 >image-zoom-slow
+	 >image-shrink
+	 >image-side-pan
+	 >image-vertical-pan
+	 >image-fade-in
+	 >image-fade-out
+	 >image-rotate
+	 >image-sepia
+	 >image-blurr
+	 >image-blurr-invert
+	 >image off color
+	 >image on color
+---------------------------------------------------------------*/
+
+.dez-img-effect {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+  }
+  &.opacity img:hover {
+    opacity: 0.8;
+  }
+  &.zoom-slow {
+    img {
+      transition: all 10s;
+      -moz-transition: all 10s;
+      -webkit-transition: all 10s;
+      -o-transition: all 10s;
+    }
+    &:hover img {
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+  &.zoom:hover img {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  &.shrink:hover img {
+    transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+  }
+  &.side-pan:hover img {
+    margin-left: -11%;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+  }
+  &.vertical-pan:hover img {
+    margin-top: -10%;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+  }
+  &.fade-in {
+    background: #000;
+    img {
+      opacity: 0.65;
+    }
+    &:hover img {
+      opacity: 1;
+    }
+  }
+  &.fade-out {
+    background: #000;
+    &:hover img {
+      opacity: 0.7;
+    }
+  }
+}
+
+.dez-box:hover .dez-img-effect.rotate img {
+  -moz-transform: scale(1.5) rotate(-20deg);
+  -webkit-transform: scale(1.5) rotate(-20deg);
+  -o-transform: scale(1.5) rotate(-20deg);
+  -ms-transform: scale(1.5) rotate(-20deg);
+  transform: scale(1.5) rotate(-20deg);
+}
+
+.dez-img-effect {
+  &.rotate:hover img {
+    -moz-transform: scale(1.5) rotate(-20deg);
+    -webkit-transform: scale(1.5) rotate(-20deg);
+    -o-transform: scale(1.5) rotate(-20deg);
+    -ms-transform: scale(1.5) rotate(-20deg);
+    transform: scale(1.5) rotate(-20deg);
+  }
+  &.sepia img {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+  }
+}
+
+/* >image-sepia */
+
+.algo-image-hover.sepia:hover img {
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
+}
+
+/* >image-blurr */
+
+.dez-img-effect {
+  &.blurr {
+    img {
+      transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+    }
+    &:hover img {
+      filter: blur(3px);
+      -webkit-filter: blur(3px);
+      -moz-filter: blur(3px);
+      -o-filter: blur(3px);
+      -ms-filter: blur(3px);
+    }
+  }
+  &.blurr-invert {
+    img {
+      transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      filter: blur(3px);
+      -webkit-filter: blur(3px);
+      -moz-filter: blur(3px);
+      -o-filter: blur(3px);
+      -ms-filter: blur(3px);
+    }
+    &:hover img {
+      filter: blur(0px);
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -o-filter: blur(0px);
+      -ms-filter: blur(0px);
+    }
+  }
+  &.off-color {
+    img {
+      filter: grayscale(0);
+      -webkit-filter: grayscale(0);
+      -moz-filter: grayscale(0);
+      -o-filter: grayscale(0);
+    }
+    &:hover img {
+      filter: grayscale(1);
+      -webkit-filter: grayscale(1);
+      -moz-filter: grayscale(1);
+      -o-filter: grayscale(1);
+    }
+  }
+  &.on-color {
+    img {
+      filter: grayscale(1);
+      -webkit-filter: grayscale(1);
+      -moz-filter: grayscale(1);
+      -o-filter: grayscale(1);
+    }
+    &:hover img {
+      filter: grayscale(0);
+      -webkit-filter: grayscale(0);
+      -moz-filter: grayscale(0);
+      -o-filter: grayscale(0);
+    }
+  }
+}

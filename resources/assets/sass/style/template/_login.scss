@@ -1,0 +1,83 @@
+
+/* Login */
+
+.dez-login {
+  background-color: #292929;
+  bottom: 0;
+  display: table;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.dez-form {
+  .form-control {
+    background: #DDE3EC;
+    height: 44px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .skew-content-box {
+    padding: 5px;
+    ul li a {
+      margin-right: 3px;
+      font-size: 13px;
+    }
+  }
+  .dez-social-icon {
+    margin: 0;
+  }
+  .skew-content-box ul li a {
+    padding: 5px;
+  }
+  .request-a-quote:before {
+    left: 0;
+    transform: skewX(0deg);
+  }
+  .header-style-4 .slide-up {
+    position: unset;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dez-book-now-content {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .our-service {
+    .service-box {
+      margin-bottom: 30px;
+    }
+    margin-top: 50px;
+  }
+  .dez-newsletter {
+    padding: 15px;
+  }
+  .company-stats-worker, .hidden-sm-down {
+    display: none;
+  }
+  .main-slider .button-lg {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+  .awesome-services .dez-info-has {
+    position: unset;
+  }
+}

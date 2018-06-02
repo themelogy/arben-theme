@@ -1,0 +1,24 @@
+
+/* Latest Blog */
+
+.blog-post-2 {
+  box-shadow: 0 0 20px 15px #ededed;
+  .dez-post-info {
+    a {
+      display: block;
+      margin: 0 0 10px;
+    }
+    p {
+      font-size: 0.8em;
+    }
+    i {
+      left: 50%;
+      margin-top: -45px;
+      position: absolute;
+      transform: translate(-50%, 0px);
+    }
+    .date {
+      font-size: 0.75em;
+    }
+  }
+}

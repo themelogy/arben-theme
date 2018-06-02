@@ -1,0 +1,48 @@
+
+/* Home 2 */
+
+.heading-top {
+  font-family: "Nunito",sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: $default-heading-color;
+}
+
+.heading-bottom {
+  font-size: 28px;
+  color: $default-txt-color;
+  padding-top: 10px;
+}
+
+.circle-sap {
+  height: 14px;
+  width: 14px;
+  content: "";
+  position: relative;
+  border-radius: 50px;
+  margin: 0 auto;
+  &:after {
+    height: 14px;
+    width: 14px;
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    left: 25px;
+  }
+  &:before {
+    height: 14px;
+    width: 14px;
+    content: "";
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    right: 25px;
+  }
+  &.bg-white {
+    background-color: #fff;
+    &:after, &:before {
+      background-color: #fff;
+    }
+  }
+}

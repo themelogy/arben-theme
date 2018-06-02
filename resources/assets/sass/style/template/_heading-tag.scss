@@ -1,0 +1,39 @@
+
+/* Heading Tag */
+
+.h4, .h5, .h6, h4, h5, h6 {
+  font-weight: 400;
+}
+
+.box-sort {
+  background-color: #ffffff;
+  /* box-shadow: 0 1px 15px 1px rgba(69, 65, 78, 0.08); */
+  border: 1px solid #ebedf2;
+  border-radius: 4px;
+  .box-sort-in {
+    border-top: 1px solid #ebedf2;
+  }
+}
+
+.dis-tbl {
+  display: table;
+}
+
+.dis-tbl-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.dis-tbl-cell-b {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.img-cover {
+  object-fit: cover;
+  width: 100%;
+}
+
+.widget.bg-white {
+  border: 1px solid #ebedf2;
+}

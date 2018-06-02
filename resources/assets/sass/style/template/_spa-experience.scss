@@ -1,0 +1,19 @@
+
+/* Spa Experience  */
+.experience-spa {
+  margin-top: -50px;
+  .callout-content {
+    width: 1140px;
+    .icon-bx-wraper {
+      box-shadow: 1px 1px 60px 0 rgba(0, 0, 0, 0.15);
+      padding: 30px;
+      border-radius: 12px;
+    }
+    top: 70%;
+  }
+}
+
+.experience-spa-box {
+  position: relative;
+  z-index: 2;
+}

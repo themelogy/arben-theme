@@ -1,0 +1,102 @@
+
+
+/*---------------------------------------------------------------
+3. TEXT & PARAGRAPH
+---------------------------------------------------------------*/
+
+p {
+  line-height: 1.4em;
+  margin-bottom: 24px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+/*text align*/
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/*text vertical align*/
+
+.v-align-t {
+  vertical-align: top;
+}
+
+.v-align-m {
+  vertical-align: middle;
+}
+
+.v-align-b {
+  vertical-align: bottom;
+}
+
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+/*text transform*/
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/*font size in extra small devices*/
+@for $s from 8 through 70 {
+  .font-#{$s} {
+    font-size: $s+px !important;
+  }
+}
+
+/*text weight*/
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}

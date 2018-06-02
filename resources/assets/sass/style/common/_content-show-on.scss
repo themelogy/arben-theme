@@ -1,0 +1,96 @@
+
+/*---------------------------------------------------------------
+11. CONTENT SHOW ON IMAGE BOX
+---------------------------------------------------------------*/
+/* info box show */
+
+.dez-info-has {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 30px 15px 40px;
+  opacity: 0;
+  margin-bottom: -100px;
+  z-index: 2;
+  &.p-a15 {
+    padding: 15px;
+  }
+  &.p-a20 {
+    padding: 20px;
+  }
+  &.bg-primary {
+    background-color: rgba(27, 188, 232, 0.9);
+  }
+  &.bg-green {
+    background-color: rgba(106, 179, 62, 0.9);
+  }
+  &.bg-black {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  &.bg-white {
+    background-color: rgba(255, 255, 255, 0.8);
+    h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+      color: #3d474a;
+    }
+    .dez-info-has-text, p {
+      color: #767676;
+    }
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+  }
+}
+
+.dez-info-has-text {
+  color: #fff;
+}
+
+.dez-info-has {
+  a {
+    color: #fff;
+  }
+  .dez-info-has-text {
+    margin-bottom: 20px;
+    line-height: 24px;
+  }
+}
+
+.dez-media {
+  overflow: hidden;
+  position: relative;
+}
+
+.dez-box:hover .dez-info-has, .dez-media:hover .dez-info-has {
+  opacity: 1;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* without hover */
+
+.dez-info-has {
+  &.no-hover {
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  &.skew-has {
+    border-top: 4px solid #2D3239;
+    padding: 30px 40px 60px;
+    -moz-transform: skewY(10deg);
+    -webkit-transform: skewY(10deg);
+    -o-transform: skewY(10deg);
+    -ms-transform: skewY(10deg);
+    transform: skewY(10deg);
+    bottom: -35px;
+    > * {
+      -moz-transform: skewY(-10deg);
+      -webkit-transform: skewY(-10deg);
+      -o-transform: skewY(-10deg);
+      -ms-transform: skewY(-10deg);
+      transform: skewY(-10deg);
+    }
+  }
+}

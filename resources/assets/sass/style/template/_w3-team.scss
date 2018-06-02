@@ -1,0 +1,25 @@
+
+/*=== W3 Team ===*/
+
+.dez-team {
+  .dez-media {
+    border-bottom: 4px solid #333232;
+    border-top: 4px solid #dadada;
+  }
+  .dez-social-icon li a {
+    height: 30px;
+    width: 30px;
+    border: 0;
+    color: #333232;
+    padding: 0;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .dez-img-overlay6 {
+    &:before, &:after {
+      background-image: url("../images/overlay/rrdiagonal-line.png");
+      background-color: rgba(0, 0, 0, 0);
+      opacity: 0.2;
+    }
+  }
+}

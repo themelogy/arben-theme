@@ -1,0 +1,67 @@
+
+/* Spa Care Box */
+
+.dez-media > p {
+  background: #ffffff none repeat scroll 0 0;
+  border: 2px solid #e4e4e4;
+  border-radius: 12px;
+  color: #363636;
+  font-size: 16px;
+  padding: 20px 30px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 70%;
+}
+
+.media-img {
+  width: 40%;
+  border: 2px solid #e4e4e4;
+}
+
+.appoint-btn {
+  width: 50%;
+  float: left;
+}
+
+.box-price {
+  width: 50%;
+  float: left;
+  span {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+  }
+  h2 {
+    border-bottom: 3px solid $default-theme-color;
+  }
+}
+
+.fley {
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.spa-care-box {
+  padding: 0 10px;
+}
+
+/* callout content */
+
+.callout-box {
+  position: relative;
+}
+
+.callout-content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 750px;
+}
+
+.text-fly {
+  text-shadow: -2px -2px 8px rgba(0, 0, 0, 0.3);
+}

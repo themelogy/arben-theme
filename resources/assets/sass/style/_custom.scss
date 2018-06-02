@@ -1,0 +1,125 @@
+@media (min-width: 768px) {
+  .dark {
+    .sm-clean > li > a {
+      .sub-arrow {
+        border-color: $menu-color transparent transparent transparent;
+      }
+      &.current .sub-arrow {
+        color: $default-txt-color;
+        border-color: $menu-color transparent transparent transparent;
+      }
+    }
+  }
+}
+
+.content-page-list {
+  .content {
+    font-size: 1.3rem;
+  }
+}
+
+.page-content {
+  @media (max-width: 768px) {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.page-list {
+  li {
+    padding: 0;
+    position: relative;
+    &:before {
+      content: " ";
+      position: absolute;
+      left:0;
+      top:0;
+      height: 100%;
+      width: 5px;
+      z-index: 1;
+      background-color: darken(white, 20%);
+    }
+    &.active {
+      background-color: #fff;
+      border-color: darken(white, 20%);
+      font-weight: bold;
+      color: $default-theme-color;
+    }
+    &:hover, &.active, &:focus {
+      border-color: darken(white, 20%) !important;
+      background-color: white !important;
+      @include transition(all 1s);
+      &:before {
+        background-color: $default-theme-color;
+      }
+    }
+    a {
+      padding: 10px 20px;
+      display: block;
+      color: $default-txt-color;
+      font-size: .8em;
+      &:hover {
+        color: darken(white, 50%);
+        background-color: transparent;
+        border-color: darken(white, 20%);
+      }
+    }
+    &:hover, a:hover {
+      background-color: #fff;
+    }
+  }
+}
+
+
+.social-share {
+  div {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    &:first-child {
+      font-weight: 600;
+    }
+  }
+}
+.jssocials-share {
+  &:first-child .jssocials-share-link  {
+    margin-left: 0;
+  }
+}
+.post-share a {
+  font-size: 12px !important;
+}
+.plain .jssocials-share-logo {
+  font-size: 16px !important;
+}
+.plain .jssocials-share-link {
+  border: 1px solid darken(white, 25%) !important;
+  &:hover {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    border-color: $default-theme-color !important;
+    i {
+      color: $default-theme-color !important;
+    }
+  }
+}
+
+.no-bullets {
+  list-style: none;
+  list-style-position: inside;
+}
+
+.treatments {
+  .owl-stage-outer {
+    .owl-item {
+      padding: 10px;
+    }
+    .about-info p {
+      min-height: 130px;
+    }
+  }
+}

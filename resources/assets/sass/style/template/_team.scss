@@ -1,0 +1,29 @@
+
+/* Team Section */
+
+.skew-content-box {
+  ul li a {
+    color: #fff;
+    font-size: 14px;
+    width: auto;
+    padding: 0 10px;
+    line-height: 24px;
+  }
+  display: inline;
+  left: -1px;
+  padding: 5px 20px;
+  position: absolute;
+  top: -15px;
+  width: auto;
+  &:after {
+    background-color: inherit;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    transform: skewX(20deg);
+    width: 20px;
+    z-index: 1;
+  }
+}

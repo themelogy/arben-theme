@@ -1,0 +1,83 @@
+
+body {
+  background-color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: $default-txt-color;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: $default-theme-color;
+  outline: 0 none;
+  text-decoration: none;
+  &:hover, &:focus {
+    text-decoration: none;
+    outline: 0 none;
+  }
+  &:active, &:hover {
+    color: #333333;
+  }
+}
+
+p a {
+  color: #333333;
+}
+
+img {
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+hr {
+  clear: both;
+}
+
+section, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, summary {
+  display: block;
+}
+
+address {
+  font-style: italic;
+}
+
+table {
+  background-color: transparent;
+  width: 100%;
+  thead th {
+    color: #333;
+  }
+  td {
+    padding: 15px 10px;
+  }
+}
+
+p, address, pre, hr, ul, ol, dl, dd, table {
+  margin-bottom: 24px;
+}
+
+.overflow-hide {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.pull-none {
+  float: none;
+}
+
+::-moz-selection, ::selection {
+  background: #3396d1;
+  color: #fff;
+}

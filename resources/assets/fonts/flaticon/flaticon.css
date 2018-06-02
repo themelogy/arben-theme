@@ -1,0 +1,74 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/05/2018 01:56
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+    font-style: normal;
+}
+
+.flaticon-vaccine:before { content: "\f100"; }
+.flaticon-ear:before { content: "\f101"; }
+.flaticon-hot:before { content: "\f102"; }
+.flaticon-massage:before { content: "\f103"; }
+.flaticon-two-eyelashes:before { content: "\f104"; }
+.flaticon-eyelashes-curler:before { content: "\f105"; }
+.flaticon-eyelash:before { content: "\f106"; }
+.flaticon-eyelashes-1:before { content: "\f107"; }
+.flaticon-eyelashes:before { content: "\f108"; }
+.flaticon-nails:before { content: "\f109"; }
+.flaticon-eye-make-up:before { content: "\f10a"; }
+.flaticon-eyebrow:before { content: "\f10b"; }
+.flaticon-female-eye:before { content: "\f10c"; }
+.flaticon-cosmetics:before { content: "\f10d"; }
+.flaticon-fashion:before { content: "\f10e"; }
+.flaticon-women:before { content: "\f10f"; }
+.flaticon-woman-lips:before { content: "\f110"; }
+.flaticon-spa:before { content: "\f111"; }
+.flaticon-women-style:before { content: "\f112"; }
+.flaticon-people-4:before { content: "\f113"; }
+.flaticon-relax:before { content: "\f114"; }
+.flaticon-hand:before { content: "\f115"; }
+.flaticon-health:before { content: "\f116"; }
+.flaticon-hairdresser:before { content: "\f117"; }
+.flaticon-medical-3:before { content: "\f118"; }
+.flaticon-nature:before { content: "\f119"; }
+.flaticon-symbol:before { content: "\f11a"; }
+.flaticon-human:before { content: "\f11b"; }
+.flaticon-people-3:before { content: "\f11c"; }
+.flaticon-reduce:before { content: "\f11d"; }
+.flaticon-time:before { content: "\f11e"; }
+.flaticon-people-2:before { content: "\f11f"; }
+.flaticon-lemon:before { content: "\f120"; }
+.flaticon-medical-2:before { content: "\f121"; }
+.flaticon-body:before { content: "\f122"; }
+.flaticon-face:before { content: "\f123"; }
+.flaticon-head:before { content: "\f124"; }
+.flaticon-medical-1:before { content: "\f125"; }
+.flaticon-cream:before { content: "\f126"; }
+.flaticon-medical:before { content: "\f127"; }
+.flaticon-beauty:before { content: "\f128"; }
+.flaticon-woman:before { content: "\f129"; }
+.flaticon-people-1:before { content: "\f12a"; }
+.flaticon-people:before { content: "\f12b"; }
+.flaticon-remove:before { content: "\f12c"; }

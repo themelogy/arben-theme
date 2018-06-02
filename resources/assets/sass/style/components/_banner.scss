@@ -1,0 +1,424 @@
+
+
+/* Responsive CSS End */
+/* ================== Header Style 5 End ================== */
+/*---------------------------------------------------------------
+19. BANNER
+---------------------------------------------------------------*/
+
+.dez-banner-row, .dez-banner-outer {
+  position: relative;
+}
+
+.dez-bnr-pic {
+  width: 100%;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.dez-bnr-text {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #FFFFFF;
+}
+
+.dez-bnr-text-has {
+  max-width: 600px;
+}
+
+.dez-bnr-text {
+  strong, span {
+    @include text-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  }
+  strong {
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 0 0 25px;
+    color: #FFFFFF;
+  }
+  span {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .btn {
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .dez-bnr-text {
+    strong {
+      font-size: 60px;
+      line-height: 60px;
+      margin: 0 0 15px;
+    }
+    span {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .dez-bnr-text strong {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0 0 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dez-bnr-text strong {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .dez-bnr-text {
+    strong {
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 0 0;
+    }
+    span {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .dez-bnr-text {
+    strong {
+      font-size: 20px;
+      line-height: 20px;
+    }
+    span {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}
+
+/*== > inner page banner ==*/
+
+.dez-bnr-inr {
+  &.dez-bnr-inr-lg {
+    height: 800px;
+  }
+  &.dez-bnr-inr-md {
+    height: 600px;
+  }
+  &.dez-bnr-inr-sm {
+    height: 400px;
+  }
+  padding-top: 70px;
+  background-size: cover;
+  background-position: center center;
+  display: table;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 40px;
+  .container {
+    display: table;
+    height: 100%;
+  }
+  &.tb {
+    .text-white, a, h1, h2, h3, h4, h5, h6, .text-white {
+      color: $heading-color;
+    }
+    .breadcrumb-row ul li {
+      a {
+        color: $breadcrumb-color;
+        margin-right: 5px;
+      }
+      color: $breadcrumb-color;
+      a:hover {
+        color: $breadcrumb-hover-color;
+      }
+      &:after, &:last-child {
+        color: $breadcrumb-separator-color;
+        margin-right: 5px;
+      }
+    }
+    .dez-separator {
+      background-color: $breadcrumb-separator-color;
+    }
+  }
+}
+
+.dez-bnr-inr-entry {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.banner-inner-row {
+  h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+  }
+}
+
+/* Banner Contant */
+
+.dez-bnr-inr {
+  &.banner-content {
+    h1 {
+      font-weight: 500;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 100;
+      letter-spacing: 1px;
+      line-height: 36px;
+      max-width: 750px;
+      display: inline-block;
+    }
+    .site-button {
+      padding: 13px 35px;
+      font-size: 16px;
+    }
+  }
+  .breadcrumb-row {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Banner  */
+
+.next-element {
+  color: #ffffff;
+  float: right;
+  opacity: 0.1;
+  &:hover {
+    color: #fff;
+    opacity: 0.8;
+  }
+  i {}
+}
+
+.dez-bnr-inr {
+  .breadcrumb-row ul li {
+    &:after, &:last-child, a {
+      color: #fff;
+    }
+  }
+  &.bnr-center .dez-bnr-inr-entry {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ele-bnr {
+    .bnr-title, h1 a, .breadcrumb-row h5 {
+      display: none;
+    }
+    .dez-bnr-inr-entry {
+      text-align: center;
+    }
+  }
+}
+
+/*---------------------------------------------------------------
+20. SLIDER
+	>rs slider
+	>owl slider
+---------------------------------------------------------------*/
+/*== >rs slider ==*/
+
+.tp-caption {
+  .font-weight-300 {
+    font-weight: 300;
+  }
+  .font-weight-400 {
+    font-weight: 400;
+  }
+  .font-weight-500 {
+    font-weight: 500;
+  }
+  .font-weight-600 {
+    font-weight: 600;
+  }
+  .font-weight-700 {
+    font-weight: 700;
+  }
+  .font-weight-800 {
+    font-weight: 800;
+  }
+  .font-weight-900 {
+    font-weight: 900;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 60px;
+  }
+  h2 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  h5 {
+    font-size: 30px;
+    line-height: 4px;
+    margin-bottom: 10px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  h4, h5, h6 {
+    font-weight: 600;
+  }
+  .text {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    width: 500px;
+  }
+}
+
+.overlay-row {
+  background: #000 none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/*== >owl slider ==*/
+/* next pre btn */
+
+.owl-theme {
+  .owl-controls {
+    margin-top: 20px;
+    text-align: center;
+    .owl-nav .disabled {
+      opacity: .5;
+      cursor: default;
+    }
+  }
+  .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background: #d6d6d6;
+      display: block;
+      -webkit-backface-visibility: visible;
+      -webkit-transition: opacity 200ms ease;
+      -moz-transition: opacity 200ms ease;
+      -o-transition: opacity 200ms ease;
+      transition: opacity 200ms ease;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    }
+    &.active span, &:hover span {
+      background: #869791;
+    }
+  }
+}
+
+/* owl dots button */
+
+/*owl button top to center  */
+
+.owl-btn-top-c .owl-controls {
+  text-align: center;
+}
+
+/*owl button top to left  */
+
+.owl-btn-top-l .owl-controls {
+  text-align: left;
+  .owl-nav .owl-prev {
+    margin-left: 0;
+  }
+}
+
+/*owl button top to right  */
+
+.owl-btn-top-r .owl-controls {
+  text-align: right;
+  .owl-nav .owl-next {
+    margin-right: 0;
+  }
+}
+
+/*owl button top to left & right  */
+
+.owl-btn-top-lr .owl-controls {
+  text-align: left;
+  .owl-nav .owl-next {
+    margin-right: 0;
+    float: right;
+  }
+}
+
+/*owl button < > CENTER to left & right */
+
+.owl-btn-center-lr .owl-controls {
+  margin: 0;
+  .owl-nav {
+    .owl-prev {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin: -17px 0;
+    }
+    .owl-next {
+      position: absolute;
+      top: 50%;
+      margin: -17px 0;
+      left: auto;
+      right: 0;
+    }
+  }
+}
+
+.owl-carousel .owl-item img {
+  transform-style: inherit;
+}

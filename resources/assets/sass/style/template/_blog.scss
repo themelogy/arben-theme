@@ -1,0 +1,117 @@
+
+/*=== Blog ===*/
+
+/* index 2 */
+
+.company-status .counter {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+/* about-service */
+
+.about-service {
+  .icon-bx-wraper {
+    border: none;
+    &:nth-child(2) {
+      margin-top: -40px;
+    }
+  }
+  margin-top: -150px;
+}
+
+.gallery-projects .dez-gallery-box {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+  .blog-info li {
+    font-size: 13px;
+  }
+  .service-head {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .about-img {
+    display: none;
+  }
+  .about-us .dez-tabs .about-contant {
+    padding: 15px 15px 10px 15px;
+  }
+  .get-a-quote {
+    text-align: center;
+    .pull-right {
+      width: 100%;
+      padding: 10px 0;
+    }
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-us {
+    .dez-tabs {
+      .nav-tabs {
+        -o-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        position: unset;
+        li a {
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          position: unset;
+        }
+        background-color: #F6F6F6;
+        width: 100%;
+      }
+      .tab-content {
+        margin-left: 0;
+        display: block;
+        clear: both;
+      }
+      .nav-tabs {
+        margin-left: 0;
+        display: block;
+        clear: both;
+        li {
+          &.active {
+            border-right: 0;
+          }
+          border-right: 0;
+          width: 100%;
+        }
+      }
+    }
+    padding-top: 20px;
+  }
+  .dez-tabs.vertical .tab-pane {
+    padding: 0;
+  }
+  .dez-project-left:after {
+    right: 0;
+  }
+  .dez-service {
+    padding: 30px 15px;
+    .service-carousel {
+      margin-top: 0;
+    }
+    .owl-stage-outer {
+      margin-bottom: 30px;
+    }
+  }
+  .service-carousel.owl-theme .owl-controls {
+    position: unset;
+  }
+  .footer-bottom {
+    .text-left, .text-right {
+      text-align: center;
+    }
+  }
+}
