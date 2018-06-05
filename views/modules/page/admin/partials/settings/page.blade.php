@@ -62,6 +62,7 @@
 
 
 @push('js-stack')
+    {!! Asset::setDomain(url('/')) !!}
     {!! Asset::add('themes/arben/vendor/fonticonpicker/jquery.fonticonpicker.min.js') !!}
     {!! Asset::add('themes/arben/vendor/fonticonpicker/css/jquery.fonticonpicker.min.css') !!}
     {!! Asset::add('themes/arben/vendor/fonticonpicker/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.css') !!}
