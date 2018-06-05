@@ -19,5 +19,8 @@ return [
         'message' => 'Formunuz tarafımıza ulaşmıştır, en kısa sürede incelenerek tarafınıza dönüş yapacaktır. İlginize teşekkür ederiz.',
         'date'    => '<strong>Formun gönderildiği tarih/saat :</strong>',
         'ip'      => '<strong>Formu gönderen IP :</strong>'
+    ],
+    'buttons' => [
+        'navigation' => 'Yol Tarifi Al'
     ]
 ];

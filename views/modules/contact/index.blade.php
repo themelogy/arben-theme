@@ -57,6 +57,12 @@
                                     </div>
                                 </li>
                                 @endif
+                                <li class="icon-bx-wraper left m-b40">
+                                    <div class="icon-bx-xs bg-primary"> <a href="#" class="icon-cell"><i class="fa fa-location-arrow"></i></a> </div>
+                                    <div class="icon-content">
+                                        <a target="_blank" href="https://www.google.com/maps/dir/Current+Location/{{ setting('contact::contact-map-lat') }},{{ setting('contact::contact-map-lng') }}" class="site-button" style="padding: 10px !important; height: auto;">{{ trans('themes::contact.buttons.navigation') }}</a>
+                                    </div>
+                                </li>
                             </ul>
                             <div class="m-t20">
                                 @include('partials.components.socials', ['class'=>'dez-social-icon border dez-social-icon-lg', 'link_class'=>' bg-primary'])
