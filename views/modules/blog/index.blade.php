@@ -15,8 +15,10 @@
                 <div class="post card-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     @include('blog::partials._post')
                 </div>
+                @unset($post)
             @endforeach
         </div>
+            @unset($chunk)
         @endforeach
     </div>
 

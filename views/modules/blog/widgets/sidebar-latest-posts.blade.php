@@ -6,7 +6,7 @@
             <div class="dez-post-media"> <img src="{{ $post->present()->firstImage(90,72,'fit',80) }}" alt="{{ $post->title }}"> </div>
             <div class="dez-post-info">
                 <div class="dez-post-header">
-                    <h6 class="post-title">{{ $post->title }}</h6>
+                    <h6 class="post-title">{!! Html::link($post->url, $post->title) !!}</h6>
                 </div>
                 <div class="dez-post-meta">
                     <ul>

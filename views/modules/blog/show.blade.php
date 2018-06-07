@@ -1,7 +1,7 @@
 @extends('blog::layouts.master')
 
 @section('blog.title')
-    @component('partials.components.title', ['breadcrumbs'=>'blog.view'])
+    @component('partials.components.title', ['breadcrumbs'=>'blog.show'])
         {{ $post->title }}
     @endcomponent
 @endsection
@@ -30,6 +30,7 @@
                 <div class="post-tags">
                     @foreach($post->tags as $tag)
                         <a href="{{ route('blog.tag', [$tag->slug]) }}">{{ $tag->name }}</a>
+                        @unset($tag)
                     @endforeach
                 </div>
             </div>

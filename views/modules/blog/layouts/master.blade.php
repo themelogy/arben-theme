@@ -21,13 +21,12 @@
                         <aside class="side-bar">
                             @blogCategories(20,'sidebar-categories')
                             @blogLatestPosts(3, 'sidebar-latest-posts')
-                            @if(isset($post))
+                            @isset($post)
                                 @blogTags($post, 5, 'sidebar-tags')
-                            @elseif(isset($posts))
-                                @foreach($posts as $post)
-                                    @blogTags($post, 1, 'sidebar-tags')
-                                @endforeach
-                            @endif
+                            @endisset
+                            @isset($posts)
+                                @blogTags($posts, 5, 'sidebar-tags')
+                            @endisset
                         </aside>
                     </div>
                 </div>
